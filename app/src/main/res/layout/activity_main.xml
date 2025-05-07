@@ -13,8 +13,6 @@
 
 
 
-
-
         <ImageView
             android:id="@+id/appIcon"
             android:layout_width="80dp"
