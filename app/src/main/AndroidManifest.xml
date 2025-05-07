@@ -14,22 +14,20 @@
         android:theme="@style/Theme.InventoryManagement"
         tools:targetApi="31">
 
-
-        <activity android:name=".AddProductActivity" />
-
-
-        <activity android:name=".ViewInventoryActivity" />
-
-
+        <!-- Login screen as launcher -->
         <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:theme="@style/Theme.InventoryManagement">
+            android:name=".LoginActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Other screens -->
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AddProductActivity" />
+        <activity android:name=".ViewInventoryActivity" />
 
     </application>
 
