@@ -40,22 +40,13 @@
             android:layout_marginBottom="24dp" />
 
         <Button
-            android:id="@+id/btnLogin"
+            android:id="@+id/btnRegister"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="🔐 LOGIN"
-            android:textSize="16sp"
-            android:backgroundTint="#60a5fa"
-            android:textColor="#ffffff"
-            android:layout_marginBottom="16dp" />
-
-        <Button
-            android:id="@+id/btnRegisterRedirect"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="📝 Go to Register"
+            android:text="📝 REGISTER"
             android:textSize="16sp"
             android:backgroundTint="#4ade80"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:paddingHorizontal="32dp" />
     </LinearLayout>
 </ScrollView>

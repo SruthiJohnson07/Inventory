@@ -25,6 +25,7 @@
         </activity>
 
         <!-- Other screens -->
+        <activity android:name=".RegisterActivity"/>
         <activity android:name=".MainActivity" />
         <activity android:name=".AddProductActivity" />
         <activity android:name=".ViewInventoryActivity" />
